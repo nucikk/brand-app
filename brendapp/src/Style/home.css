@@ -1,0 +1,24 @@
+.home-wrapper {
+    height: 1080px;
+    background-color: #d498d4;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .home-banner {
+    height: 880px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+  }
+  
+  .home-banner img:first-child {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 2;
+  }
+  
+  .home-banner img:nth-child(2),
+  .home-banner img:nth-child(3) {
+    grid-column: 2 / span 1;
+  }
