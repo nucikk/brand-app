@@ -4,8 +4,9 @@ function App() {
 
   return (
     <>
-      <div className='mainContainer'>
+      <div className='main-container'>
         <Home />
+
       </div>
     </>
   )
